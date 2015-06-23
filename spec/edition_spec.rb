@@ -8,15 +8,15 @@ describe Author do
 
 	let(:book)	{ 
 		Book.new( 
-			Author.new( 		# Author of the book
-					'Ivan', 						# Name of the author
+			Author.new( 	# Author of the book
+					'Ivan', 			# Name of the author
 					DateTime.new(1996, 11, 12), 	# Date of birth of the author
-					DateTime.new(2004, 6, 19)),		# Date of death of the author
-			'Ruby Book' ) 		# Book name
+					DateTime.new(2004, 6, 19)),	# Date of death of the author
+			'Ruby Book' ) 	# Book name
 	}
 	let(:edition_year) 		{ 2014 }
 	let(:pages_num)			{ 450  }
-	let(:price)				{ 1400 }
+	let(:price)			{ 1400 }
 	subject(:edition) 		{ Edition.new( book, edition_year, pages_num, price ) }
 
 
