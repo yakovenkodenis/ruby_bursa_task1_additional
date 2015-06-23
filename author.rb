@@ -4,7 +4,7 @@ class Author
 
 	attr_reader :name, :date_birth, :date_death
 
-	def initialize name, date_birth, date_death
+	def initialize( name, date_birth, date_death )
 		@name, @date_birth, @date_death = name, date_birth, date_death
 	end
 
