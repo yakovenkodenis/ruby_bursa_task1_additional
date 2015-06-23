@@ -5,8 +5,7 @@ class Book
 	attr_reader :author, :name
 
 	def initialize author, name
-		@author = author
-		@name = name
+		@author, @name = author, name
 	end
 
 	def to_s
