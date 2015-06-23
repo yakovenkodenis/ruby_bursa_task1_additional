@@ -4,7 +4,7 @@ require '../author'
 
 describe Author do
 
-	let(:name) 			{ 'Ivan' }
+	let(:name) 				{ 'Ivan' }
 	let(:date_birth) 		{ DateTime.new( 1996, 11, 12 ) }
 	let(:date_death) 		{ DateTime.new( 2004, 6, 19 ) }
 	subject(:author) 		{ Author.new( name, date_birth, date_death ) }

@@ -16,7 +16,7 @@ describe Author do
 	}
 	let(:edition_year) 		{ 2014 }
 	let(:pages_num)			{ 450  }
-	let(:price)			{ 1400 }
+	let(:price)				{ 1400 }
 	subject(:edition) 		{ Edition.new( book, edition_year, pages_num, price ) }
 
 

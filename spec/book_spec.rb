@@ -6,7 +6,7 @@ require '../book'
 describe Author do
 
 	let(:author)	{ Author.new( 'Ivan', DateTime.new(1996, 11, 12), DateTime.new(2004, 6, 19) ) }
-	let(:name) 	{ 'Ruby Book' }
+	let(:name) 		{ 'Ruby Book' }
 	subject(:book) 	{ Book.new( author, name ) }
 
 
