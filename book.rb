@@ -1,4 +1,3 @@
-require 'active_support/all'
 
 class Book
 
